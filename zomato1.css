@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;padding: 0%;margin: 0%;
+}  
+.nav{
+    background-color: rgb(231, 4, 4);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 67px;
+
+}
+.nav a{font-size: 17px;
+    color: black
+    display: block;
+    padding: 26px;
+    align-items:center;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+}
+.square{
+    display: flex;
+    
+  
+    
+}
+.foodbackground{  
+    background-image: url("./Images/kuchbhi.jpg");
+     display: flex;flex-wrap: wrap;height: 500px;width: 100%;
+}
+.Order{
+    display: flex;flex-direction: column;
+    color: white;
+    font: 1em sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+     height: auto;
+     width: auto;
+     margin-left: auto;margin-right: auto;
+}
+.block{padding-bottom: 2%;
+    font-size: 50px;
+    text-align: center;   
+    width:auto;
+
+}
+.fa-map-marker{
+    color: white;
+}
+
+
+.fa-location-arrow{
+    color: cornsilk;
+}
+.square1{
+    position: relative;background-color: whitesmoke;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;display: flex;flex-wrap: wrap;flex-direction: column;
+}
+.subsquare1{
+    display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-around;background-color: whitesmoke;
+}
+.header{background-color: whitesmoke;
+    text-align: center;flex-wrap: wrap;font-size: 30px;flex-direction: column;
+
+}
+.subheader
+    {background-color: whitesmoke;font-size: 20px;text-align: center;flex-wrap: wrap;
+}
+.block1{
+display: flex;flex-wrap: wrap;flex-direction: row;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+.block2{
+    display: flex;flex-wrap: wrap;flex-direction:row;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+.block3{
+    display: flex;flex-wrap: wrap;flex-direction: row;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+.divide{
+    background-color: whitesmoke;
+    display: flex;flex-direction: row;flex-wrap: wrap;font-weight: 400;justify-content: center;
+}
+
+.rhombus{display: flex;background-color:whitesmoke;justify-content: center;
+    color: #33373d;margin-top: 1px;
+
+}
+.row{
+    text-align: center;
+}
+.footer{
+    display: flex;flex-wrap: wrap;flex-direction: row;    background-color:#33373d;
+}
+.box21{
+    display: flex; flex-wrap: wrap;
+    background-color:#33373d;justify-content: space-around;margin-top: 1px;
+
+}
+.box11{
+    display: flex; background-color:#33373d;color: #cce2ff;list-style-type: none;
+justify-content: space-around;}
+.box11 li{
+    list-style-type: none;
+}    
+    
+  
+  
+.box44{ background-color:#33373d;color: #cce2ff;;
+    
+    display: flex;align-items: center;
+}
+.box44 li{
+    list-style-type: none;
+}    
+.box51{
+    display: flex; flex-wrap: wrap;
+    background-color:#33373d;justify-content: space-around;margin-top: 1px;
+
+}
+.box53{
+    display: flex; background-color:#33373d;color: #cce2ff;list-style-type: none;align-items: center;padding-top: 63px;
+justify-content: space-around;}
+.box53 li{
+    
+    list-style-type: none;
+}
+.box52{
+    display: flex; background-color:#33373d;color: #cce2ff;list-style-type: none;align-items: center;
+    justify-content: space-around;
+}   
+.box52 li{
+    
+    list-style-type: none;
+} 
+ 
+.badadiv{margin-top: 1px;
+    display: flex;
+    flex-wrap: wrap;font-size: 17px;
+    background-color:#33373d;color: #cce2ff;
+
+}   
+.privacy{padding-right: 114px;justify-content: space-between;
+    display: flex;flex: 70%;
+    flex-wrap: wrap;
+    background-color:#33373d;color: #cce2ff;
+} 
+.socialnetwork{
+    display: flex;flex: 30%;
+    flex-wrap: wrap;font-size: 22px;justify-content: space-evenly;
+    background-color:#33373d;color: #cce2ff;
+}  
+.privacy div{
+    font-size: 20px;
+} 
+
+.nav a:hover{
+    color: black;
+    display: block;
+    background-color: burlywood;
+}
